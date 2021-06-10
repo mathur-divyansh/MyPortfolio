@@ -481,7 +481,10 @@ box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
 {
     background: #0077B5;
 }
-
+.Trailhead
+{ 
+	background: #1C6EA4;
+}
 .icon-bar a:hover {
 	transform: translateX(0);
 	-webkit-transform: translateX(0);
