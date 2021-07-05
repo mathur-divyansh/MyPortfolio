@@ -14,7 +14,7 @@
     $toEmail ='divyansh231099@gmail.com';
     $headers = "From: $email_from \r\n";
     $headers .= "reply-to: $visitor_email \r\n";
-    @mail($to,$email_subject,$email_body,$headers);
+    mail($toEmail,$email_subject,$email_body,$headers);
     header("location: index.html");
  
  ?>
